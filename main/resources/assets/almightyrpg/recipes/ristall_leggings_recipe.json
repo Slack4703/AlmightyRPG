@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "R R",
+        "R R"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "almightyrpg:ristall"
+        }
+    },
+    
+    "result":
+    {
+        "item": "almightyrpg:ristall_leggings",
+        "count": 1
+    }
+}

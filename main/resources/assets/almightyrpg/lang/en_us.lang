@@ -1,0 +1,23 @@
+//Items
+item.ristall.name=Ristall
+item.ristall_shard.name=Ristall Shard
+
+//Blocks
+tile.ristall_ore.name=Ristall Ore
+tile.ristall_block.name=Ristall Block
+
+//Tools
+item.ristall_sword.name=Ristall Sword
+item.ristall_shovel.name=Ristall Shovel
+item.ristall_pickaxe.name=Ristall Pickaxe
+item.ristall_axe.name=Ristall Axe
+item.ristall_hoe.name=Ristall Hoe
+
+//Armor
+item.ristall_helmet.name=Ristall Helmet
+item.ristall_chestplate.name=Ristall Chestplate
+item.ristall_leggings.name=Ristall Leggings
+item.ristall_boots.name=Ristall Boots
+
+//Creative Tabs
+itemGroup.almightyrpgtab=AlmightyRPG
