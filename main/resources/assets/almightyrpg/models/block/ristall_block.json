@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "almightyrpg:blocks/ristall_block"
+   }
+}

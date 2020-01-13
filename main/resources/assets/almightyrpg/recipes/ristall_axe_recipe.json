@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RR ",
+        "RS ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "almightyrpg:ristall"
+        },
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "almightyrpg:ristall_axe",
+        "count": 1
+    }
+}
