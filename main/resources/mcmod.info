@@ -3,13 +3,13 @@
   "modid": "almightyrpg",
   "name": "AlmightyRPG",
   "description": "",
-  "version": "1.0",
+  "version": "1.1",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Slack43"],
-  "credits": "",
-  "logoFile": "LOGO.png",
+  "authorList": ["Slack43","Skifter123"],
+  "credits": "Slack43: Main Programmer,Skifter123: Textures",
+  "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []
 }

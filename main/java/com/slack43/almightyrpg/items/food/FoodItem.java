@@ -1,25 +1,23 @@
-package com.slack43.almightyrpg.items;
+package com.slack43.almightyrpg.items.food;
 
 import com.slack43.almightyrpg.Main;
 import com.slack43.almightyrpg.initialization.ModItems;
-import com.slack43.almightyrpg.tools.JSONWriter;
 import com.slack43.almightyrpg.utility.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 
-public class ItemBase extends Item implements IHasModel
+public class FoodItem extends ItemFood implements IHasModel
 {
-	public ItemBase(String name) 
-	{
+	public FoodItem(String name,int amount, float saturation, boolean isWolfFood) {
+		super(amount, saturation, isWolfFood);		
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(ModItems.ARPG_TAB);
 		
 		ModItems.ITEMS.add(this);
 	}
-	
-	
+
 	@Override
 	public void registerModels() 
 	{

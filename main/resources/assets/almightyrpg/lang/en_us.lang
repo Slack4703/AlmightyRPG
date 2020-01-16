@@ -2,9 +2,13 @@
 item.ristall.name=Ristall
 item.ristall_shard.name=Ristall Shard
 
+//Food
+item.roasted_egg.name=Fried Egg
+
 //Blocks
 tile.ristall_ore.name=Ristall Ore
 tile.ristall_block.name=Ristall Block
+tile.exp_ore.name=Exp Ore
 
 //Tools
 item.ristall_sword.name=Ristall Sword

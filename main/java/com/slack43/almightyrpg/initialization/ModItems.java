@@ -5,6 +5,8 @@ import java.util.List;
 
 import com.slack43.almightyrpg.items.ItemBase;
 import com.slack43.almightyrpg.items.armor.ArmorBase;
+import com.slack43.almightyrpg.items.food.EffectCristall;
+import com.slack43.almightyrpg.items.food.FoodItem;
 import com.slack43.almightyrpg.items.tools.ToolAxe;
 import com.slack43.almightyrpg.items.tools.ToolHoe;
 import com.slack43.almightyrpg.items.tools.ToolPickaxe;
@@ -13,17 +15,21 @@ import com.slack43.almightyrpg.items.tools.ToolSword;
 import com.slack43.almightyrpg.utility.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.potion.PotionUtils;
 import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
+import net.minecraft.item.ItemTool;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems 
@@ -43,6 +49,12 @@ public class ModItems
 	//Items
 	public static final Item RISTALL = new ItemBase("ristall");
 	public static final Item RISTALL_SHARD = new ItemBase("ristall_shard");
+	
+	//Food
+	public static final Item ROASTED_EGG = new FoodItem("roasted_egg", 5, 6f, false);
+	
+	//Effect Cristalls
+	public static final Item HEALTH_CRISTALL = new EffectCristall("health_cristall", 0, 0f, false,new PotionEffect(MobEffects.REGENERATION,100,1),100f);
 	
 	//Materials
 	public static final ArmorMaterial RISTALL_ARMOR = EnumHelper.addArmorMaterial("ristall_armor", Reference.MOD_ID + ":ristall", 16, new int[] {4,7,9,5}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F);

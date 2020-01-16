@@ -1,0 +1,27 @@
+//Items
+item.ristall.name=Ristall
+item.ristall_shard.name=Od³amek Ristallu
+
+//Food
+item.roasted_egg.name=Jajko Sadzone
+
+//Blocks
+tile.ristall_ore.name=Ruda Ristallu
+tile.ristall_block.name=Blok Ristallu           
+tile.exp_ore.name=Ruda Doœwiadczenia
+
+//Tools
+item.ristall_sword.name=Riallowy Miecz
+item.ristall_shovel.name=Ristallowa £opata
+item.ristall_pickaxe.name=Ristallowy Kilof
+item.ristall_axe.name=Ristallowa Siekiera
+item.ristall_hoe.name=Ristallowa Motyka
+
+//Armor
+item.ristall_helmet.name=Ristallowy He³m
+item.ristall_chestplate.name=Ristallowa Tunika
+item.ristall_leggings.name=Ristallowe Spodnie
+item.ristall_boots.name=Ristallowe Buty
+
+//Creative Tabs
+itemGroup.almightyrpgtab=AlmightyRPG

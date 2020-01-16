@@ -1,12 +1,13 @@
 package com.slack43.almightyrpg;
 
+import com.slack43.almightyrpg.blocks.BlockBase;
+import com.slack43.almightyrpg.initialization.ModBlocks;
 import com.slack43.almightyrpg.initialization.ModRecipes;
 import com.slack43.almightyrpg.proxy.CommonProxy;
+import com.slack43.almightyrpg.tools.JSONWriter;
 import com.slack43.almightyrpg.utility.Reference;
 import com.slack43.almightyrpg.world.ModWorldGen;
 
-import net.minecraft.client.settings.GameSettings;
-import net.minecraft.world.GameRules;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
